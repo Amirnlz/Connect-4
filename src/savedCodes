@@ -1,0 +1,34 @@
+  private boolean leftDiagonal() {
+        for (int row = 0; row < 6 - 3; row++) {
+            for (int col = 0; col < boardStates[row].length - 3; col++) {
+                states element = boardStates[row][col];
+                if (!element.equals(states.EMPTY))
+                    try {
+                        if (element == boardStates[row + 1][col + 1] &&
+                                element == boardStates[row + 2][col + 2] &&
+                                element == boardStates[row + 3][col + 3])
+                            return true;
+                    } catch (ArrayIndexOutOfBoundsException ignored) {
+
+                    }
+            }
+        }
+        return false;
+    }
+
+    private boolean rightDiagonal() {
+        for (int row = 0; row < 6; row++) {
+            for (int col = 3; col < boardStates[row].length; col++) {
+                states element = boardStates[row][col];
+                if (!element.equals(states.EMPTY))
+                    try {
+                        if (element == boardStates[row + 1][col - 1] &&
+                                element == boardStates[row + 2][col - 2] &&
+                                element == boardStates[row + 3][col - 3])
+                            return true;
+                    } catch (ArrayIndexOutOfBoundsException ignored) {
+                    }
+            }
+        }
+        return false;
+    }

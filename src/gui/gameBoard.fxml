@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="745.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codes.boardController">
+    <GridPane fx:id="gridPane" alignment="CENTER" gridLinesVisible="true" layoutX="10.0" layoutY="88.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="649.0" prefWidth="810.0" style="-fx-background-color: #48bfe3;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Circle fill="WHITE" layoutX="633.0" layoutY="169.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Circle fill="WHITE" layoutX="635.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+        <Circle fill="WHITE" layoutX="519.0" layoutY="63.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <Circle fill="WHITE" layoutX="635.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+        <Circle fill="WHITE" layoutX="519.0" layoutY="63.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+        <Circle fill="WHITE" layoutX="519.0" layoutY="63.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Circle fill="WHITE" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+        <Circle fill="WHITE" layoutX="519.0" layoutY="63.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+        <Circle fill="WHITE" layoutX="633.0" layoutY="169.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+        <Circle fill="WHITE" layoutX="405.0" layoutY="275.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+        <Circle fill="WHITE" layoutX="747.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+        <Circle fill="WHITE" layoutX="407.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+        <Circle fill="WHITE" layoutX="635.0" layoutY="593.0" onMouseClicked="#circleClick" onMouseExited="#exitMouse" onMouseMoved="#mouseMove" radius="52.0" stroke="BLACK" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+    </GridPane>
+   <Label fx:id="whichPlayerLabel" layoutX="303.0" layoutY="14.0" prefHeight="39.0" prefWidth="112.0" textAlignment="CENTER">
+      <font>
+         <Font name="Serif Regular" size="22.0" />
+      </font>
+   </Label>
+   <Label fx:id="explainLabel" layoutX="432.0" layoutY="14.0" prefHeight="39.0" prefWidth="213.0">
+      <font>
+         <Font name="SansSerif Regular" size="20.0" />
+      </font>
+   </Label>
+</AnchorPane>
